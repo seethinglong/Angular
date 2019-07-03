@@ -20,7 +20,12 @@ Build id: 20190314-1200
 OS: Windows 7, v.6.1, x86_64 / win32
 Java version: 1.8.0_211
 
-2.  E:\Program Files\nodejs>npm install -g @angular/cli
+3.  Install Tomcat 9 as service and unzip to xampp folder.  Gernerate KeyStore for HTTPS TLS.
+keytool -genkey -alias tomcat9 -keyalg RSA -keystore E:\xampp\tomcat\
+
+4.  
+
+5.  E:\Program Files\nodejs>npm install -g @angular/cli
 E:\Program Files\nodejs>ng --version
 
      _                      _                 ____ _     ___
